@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class AppController {
 	@RequestMapping("/abc")
 	public String showPage() {
+		System.out.println("testing for jenkins restart");
 		return "home";
 		
 	}
